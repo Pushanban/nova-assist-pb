@@ -1,0 +1,103 @@
+.copyright{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+  }
+
+  .title{
+    color: #070721;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.title:hover{
+    color: #00C9CC;
+    transition: 0.4s ease-in-out;
+}
+
+  /*navbar*/
+  body{
+    margin:0px;
+    background-color: #F3F8FB;
+}
+
+/*Navbar*/
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    box-shadow: 2px 2px 1px;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Nunito", sans-serif;
+  }
+  
+  .topnav a:hover {
+    background-color: #00C9CC;
+    color: black;
+  }
+  
+  .topnav a.split {
+    float: right;
+    color: white;
+  }
+
+  .topnav .nav-logo:hover{
+    background-color: #333;
+    color:white;
+  }
+
+  /*blog*/
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+
+  .leftcolumn {
+    float: center;
+    width: 100%;
+  }
+  
+  .fakeimg {
+    background-color: #aaa;
+    width: 90%;
+    padding: 20px;
+  }
+
+  .fakeimg img {
+    width: 95%;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }

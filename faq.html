@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaAssist</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+
+        <div class="topnav">
+        <a href="contact.html" class="split">Contact</a>
+        <a href="faq.html" class="split">FAQs</a>
+        <a href="blog.html" class="split">Blog</a>
+        <a href="about.html" class="split">About</a>
+        <a href="home.html" class="split">Home</a>
+        <a href="home.html" class="nav-logo">NOVA ASSIST</a>
+        </div>
+        <br>
+<br><br>
+        <div class="wrapper">
+            
+            <h1>Frequently Asked Questions</h1>
+      <br><br>
+            <div class="faq">
+              <button class="accordion">
+                What is Nova Assist?
+                <i class="fa-solid fa-chevron-down"></i>
+              </button>
+              <div class="pannel">
+                <p>
+                    Nova Assist is a leading provider of high-tech assistive technology solutions designed to enhance the lives of individuals with disabilities. 
+                    Our innovative products promote independence, accessibility, and inclusion.
+                </p>
+              </div>
+            </div>
+            <br>
+            <div class="faq">
+                <button class="accordion">
+                    What products does Nova Assist offer?
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="pannel">
+                  <p>
+                    Nova Assist offers over 20 products with the latest products including smart sticks, subtitle goggles, sign-arm, and smart wheelchairs.
+                     Each product is designed to address specific challenges faced by individuals with disabilities.
+                  </p>
+                </div>
+              </div>
+              <br>
+              <div class="faq">
+                <button class="accordion">
+                    How do I purchase products from Nova Assist?
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="pannel">
+                  <p>
+                    You can purchase Nova Assist products directly from our official website - <a href="home.html"> novaassist.com</a> or visit our walk-in stores in select locations. 
+                    Simply browse our catalog, add desired items to your cart, and proceed to checkout.
+                  </p>
+                </div>
+              </div>
+              <br>
+              <div class="faq">
+                <button class="accordion">
+                    What countries does Nova Assist ship to?
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="pannel">
+                  <p>
+                    Nova Assist ships to over 70 countries worldwide, including India, USA, Russia and London. 
+                    We strive to make our products accessible to individuals globally.
+                  </p>
+                </div>
+              </div>
+              <br>
+              <div class="faq">
+                <button class="accordion">
+                    What is Nova Assist's return policy?
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="pannel">
+                  <p>
+                    Nova Assist offers a hassle-free return policy within one month of shipping.
+                    If you're not satisfied with your purchase or encounter any issues, please contact our customer support team for assistance.
+                  </p>
+                </div>
+              </div>
+              <br>
+              <div class="faq">
+                <button class="accordion">
+                    Does Nova Assist offer discounts or promotions?
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="pannel">
+                  <p>
+                    Yes, Nova Assist occasionally offers discounts and promotions on our products. 
+                    Keep an eye on our website and social media channels for the latest deals and special offers.
+                  </p>
+                </div>
+              </div>
+              <br>
+              <div class="faq">
+                <button class="accordion">
+                    Can I get a demo of the products before purchasing?
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="pannel">
+                  <p>
+                    Yes, we offer product demos at select locations.
+                    Contact us to schedule a demo or inquire about upcoming demo events in your area.
+                  </p>
+                </div>
+              </div>
+              <br>
+              <div class="faq">
+                <button class="accordion">
+                    Are there any educational resources available on Nova Assist's website?
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="pannel">
+                  <p>
+                    Yes, we provide a variety of educational resources on our website, including articles, 
+                    guides, and tutorials related to assistive technology, accessibility, and disability advocacy.
+                  </p>
+                </div>
+              </div>
+              <br>
+              <div class="faq">
+                <button class="accordion">
+                    How can I stay updated on the latest news and developments from Nova Assist?
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="pannel">
+                  <p>
+                    You can stay updated on the latest news and developments from Nova Assist by subscribing to our newsletter. 
+                    Simply sign up on our website to receive regular updates, announcements, and exclusive content.
+                  </p>
+                </div>
+              </div>
+              <br>
+
+</div>     
+<center>
+  <div class="copyright">
+      <p>Copyright &copy; 2018-2024 NovaAssist - All Rights Reserved</p>
+  </div>
+  </center>
+  </body> 
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        this.parentElement.classList.toggle("active");
+
+        var pannel = this.nextElementSibling;
+
+        if (pannel.style.display === "block") {
+          pannel.style.display = "none";
+        } else {
+          pannel.style.display = "block";
+        }
+      });
+    }
+  </script>
+
+  </html>

@@ -1,0 +1,77 @@
+body{
+    margin: 0px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    box-shadow: 2px 2px 1px;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Nunito", sans-serif;
+  }
+  
+  .topnav a:hover {
+    background-color: #00C9CC;
+    color: black;
+  }
+  
+  .topnav a.split {
+    float: right;
+    color: white;
+  }
+
+  .topnav .nav-logo:hover{
+    background-color: #333;
+    color:white;
+  }
+
+/* Add some padding and a grey background color to containers */
+.container {
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the input elements and the submit button */
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Add margins to the checkbox */
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #4400cc;
+    color: white;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+
+
+/*footer*/
+.copyright{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+  }
